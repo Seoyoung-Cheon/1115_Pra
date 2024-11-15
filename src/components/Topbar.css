@@ -1,0 +1,35 @@
+ul,
+ol {
+  list-style: none;
+}
+
+.Topbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 20rem;
+}
+
+.logo .logo-img {
+  justify-content: center;
+  align-items: center;
+}
+
+.logo .logo-name {
+  font-size: 22px;
+}
+
+.navi ul {
+  display: flex;
+}
+
+.navi ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
